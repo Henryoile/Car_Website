@@ -16,12 +16,14 @@
   --background-image-pattern: url('/pattern.png');
   --background-image-hero-bg: url('/hero-bg.png');
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Manrope", sans-serif;
+ 
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+  }
 }
 
 /* START: General styles */
